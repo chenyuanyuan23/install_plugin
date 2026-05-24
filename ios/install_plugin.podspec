@@ -12,10 +12,10 @@ A new flutter plugin project.
   s.license          = { :file => '../LICENSE' }
   s.author           = { 'Your Company' => 'email@example.com' }
   s.source           = { :path => '.' }
-  s.source_files = 'Classes/**/*'
-  s.public_header_files = 'Classes/**/*.h'
+  s.source_files = 'install_plugin/Sources/install_plugin/**/*.swift'
   s.dependency 'Flutter'
-  
-  s.ios.deployment_target = '8.0'
+  s.swift_version = '5.0'
+
+  s.ios.deployment_target = '12.0'
 end
 
